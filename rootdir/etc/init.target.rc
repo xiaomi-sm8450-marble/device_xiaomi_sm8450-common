@@ -1,4 +1,3 @@
-
 # Copyright (c) 2019-2021, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -196,5 +195,3 @@ on early-boot && property:persist.vendor.pcie.boot_option=*
 on property:sys.boot_completed=1
     enable vendor.qvirtmgr
     start  vendor.qvirtmgr
-    # STOP EATING MY BATTERY AFTER 100H OF UPTIME FUCK YOU
-    stop statsd
